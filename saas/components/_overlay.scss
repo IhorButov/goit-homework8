@@ -1,7 +1,5 @@
 .overlay {
-  /* max-width: 1600px;
-  height: 600px;*/
-  width: 100%;
+  width: 320px;
   height: auto;
   margin-right: auto;
   margin-left: auto;
@@ -19,5 +17,17 @@
   .overlay {
     width: 480px;
     height: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .overlay {
+    width: 768px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .overlay {
+    width: 1600px;
+    height: 600px;
   }
 }

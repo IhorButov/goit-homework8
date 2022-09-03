@@ -1,8 +1,8 @@
 .hero-title {
-  /*width: 696px;*/
+  width: 280px;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.61;
   margin: auto;
   margin-bottom: 30px;
   text-align: center;
@@ -31,10 +31,27 @@
 }
 @media screen and (min-width: 480px) {
   .hero-title {
-    text-align: center;
     width: 360px;
-    font-size: 26px;
-    line-height: 1.61;
     padding: 118 60 198 60;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-title {
+    width: 360px;
+    padding: 118 204px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-text-color);
   }
 }
