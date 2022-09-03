@@ -78,9 +78,9 @@ html {
 }
 
 .container {
-  width: 100%;
+  width: 100 .container;
   height: auto;
-  padding: 0 15px;
+  /*padding: 0 15px;*/
   margin: 0 auto;
 }
 
@@ -202,7 +202,8 @@ html {
   }
 }
 .section-features {
-  padding: 94px 0;
+  /*padding: 94px 0;*/
+  padding: 60px 0;
 }
 
 .section-gallery {
@@ -418,10 +419,6 @@ html {
     height: 600px;
   }
 }
-.section-features {
-  padding: 94px 0;
-}
-
 .features-icon-container {
   width: 270px;
   height: 120px;
@@ -453,6 +450,7 @@ html {
 .features-list {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
