@@ -78,7 +78,7 @@ html {
 }
 
 .container {
-  width: 100%;
+  width: 320px;
   height: auto;
   padding: 0 15px;
   margin: 0 auto;
@@ -193,7 +193,7 @@ html {
 }
 @media screen and (min-width: 768px) {
   .section-hero {
-    padding: 170px 0;
+    padding: 130px 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -201,6 +201,10 @@ html {
     padding: 200px 0;
   }
 }
+.section-features {
+  padding: 94px 0;
+}
+
 .section-gallery {
   padding: 94px 0;
 }
