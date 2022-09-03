@@ -1,3 +1,7 @@
+.section-features {
+  padding: 94px 0;
+}
+
 .features-icon-container {
   width: 270px;
   height: 120px;
@@ -26,7 +30,6 @@
 .features-list {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
