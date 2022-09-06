@@ -5,13 +5,13 @@
   border-radius: 4px;
   background-color: var(--features-bg-color);
   padding: 25px 100px;
-  @media screen and (min-width: 480px) {
+  @include mobile {
     width: 450px;
   }
-  @media screen and (min-width: 768px) {
+  @include tablet {
     width: 354px;
   }
-  @media screen and (min-width: 1200px) {
+  @include desktop {
     width: 270px;
   }
 }
@@ -31,13 +31,13 @@
 }
 .features-head {
   width: 270px;
-  @media screen and (min-width: 480px) {
+  @include mobile {
     width: 450px;
   }
-  @media screen and (min-width: 768px) {
+  @include tablet {
     width: 354px;
   }
-  @media screen and (min-width: 1200px) {
+  @include desktop {
     width: 270px;
   }
 }
