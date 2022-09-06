@@ -742,7 +742,7 @@ html {
 }
 
 .portfolio-item {
-  width: cacl 370px;
+  width: cacl(370px);
 }
 
 .portfolio-link {
